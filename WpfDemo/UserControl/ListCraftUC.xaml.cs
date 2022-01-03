@@ -16,15 +16,6 @@ public partial class ListCraftUC : UserControl
         InitializeComponent();
         ListBoxCompleteItem.ItemsSource = CompleteItemManager.CompleteItems;
     }
-
-    public void Control_OnMouseDoubleClick(object sender, MouseButtonEventArgs e)
-    {
-        for (int i = 0; i < 9; i++)
-        {
-            object component = CraftList.FindName($"Component{i}") ?? throw new InvalidOperationException();
-            ((Label)component).Content = $"{((ListBoxItem) sender).Content}Component";
-        }
-    }
     
     /*
      * Create an event to get back to the menu with User Control
@@ -45,10 +36,11 @@ public partial class ListCraftUC : UserControl
     {
         RaiseEvent(new RoutedEventArgs(BackToMenuEvent));
     }
-
-    private void ListBoxItem_OnSelected(object sender, RoutedEventArgs e)
-    {
-        MessageBox.Show("Bite");
-    }
     
+    private void ListBoxCompleteItem_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+        var listBox = (ListBox)sender;
+        var selectedItem = (CompleteItem)listBox.SelectedItem;
+        MessageBox.Show($"Item {selectedItem.Name}");
+    }
 }

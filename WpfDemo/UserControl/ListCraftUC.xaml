@@ -19,13 +19,13 @@
             </Grid.RowDefinitions>
             
             <Label Grid.Row="0" Content="Liste des objets :" HorizontalAlignment="Center"></Label>
-            <ListBox x:Name="ListBoxCompleteItem" Grid.Row="1">
+            <ListBox x:Name="ListBoxCompleteItem" Grid.Row="1" SelectionChanged="ListBoxCompleteItem_OnSelectionChanged">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Vertical">
                             <TextBlock Text="Name: " />
                             <TextBlock Text="{Binding Name}" FontWeight="Bold" />
-                            <TextBlock Text="Age: " />
+                            <TextBlock Text="Durability: " />
                             <TextBlock Text="{Binding Durability}" FontWeight="Bold" />
                             <TextBlock Text="Description: " />
                             <TextBlock Text="{Binding Description}" TextDecorations="Underline" />
