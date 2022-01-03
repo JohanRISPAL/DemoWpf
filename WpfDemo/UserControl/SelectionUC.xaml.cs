@@ -14,7 +14,7 @@ public partial class SelectionUC : UserControl
      * Create an event to get back to the menu with User Control
      */
     public static readonly RoutedEvent GoToCraftListEvent = EventManager.RegisterRoutedEvent(
-        "Tap", RoutingStrategy.Direct, typeof(RoutedEventHandler), typeof(SelectionUC));
+        "GoToCraftList", RoutingStrategy.Direct, typeof(RoutedEventHandler), typeof(SelectionUC));
     
     public event RoutedEventHandler GoToCraftList
     {

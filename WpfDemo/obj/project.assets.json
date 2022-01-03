@@ -4702,19 +4702,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\johan\\.nuget\\packages\\": {}
+    "C:\\Users\\Johan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\johan\\RiderProjects\\WpfDemo\\WpfDemo\\WpfDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Johan\\RiderProjects\\DemoWpf\\WpfDemo\\WpfDemo.csproj",
       "projectName": "WpfDemo",
-      "projectPath": "C:\\Users\\johan\\RiderProjects\\WpfDemo\\WpfDemo\\WpfDemo.csproj",
-      "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\johan\\RiderProjects\\WpfDemo\\WpfDemo\\obj\\",
+      "projectPath": "C:\\Users\\Johan\\RiderProjects\\DemoWpf\\WpfDemo\\WpfDemo.csproj",
+      "packagesPath": "C:\\Users\\Johan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Johan\\RiderProjects\\DemoWpf\\WpfDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Johan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"
@@ -4761,7 +4761,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\johan\\.dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Johan\\.dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

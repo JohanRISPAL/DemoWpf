@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\johan\RiderProjects\WpfDemo\WpfDemo\obj\Debug\net6.0-windows\
+C:\Users\Johan\RiderProjects\DemoWpf\WpfDemo\obj\Debug\net6.0-windows\
 WpfDemo
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\johan\RiderProjects\WpfDemo\WpfDemo\App.xaml
-3-940592451
+C:\Users\Johan\RiderProjects\DemoWpf\WpfDemo\App.xaml
+3-1329277783
 
-71985315279
-196-510431604
-ListCraftUC.xaml;MainWindow.xaml;SelectionUC.xaml;
+7-401573020
+1961625579097
+MainWindow.xaml;UserControl\ListCraftUC.xaml;UserControl\SelectionUC.xaml;
 
 False
 

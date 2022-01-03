@@ -30,7 +30,7 @@ public partial class ListCraftUC : UserControl
      * Create an event to get back to the menu with User Control
      */
     public static readonly RoutedEvent BackToMenuEvent = EventManager.RegisterRoutedEvent(
-        "Tap", RoutingStrategy.Direct, typeof(RoutedEventHandler), typeof(ListCraftUC));
+        "BackToMenu", RoutingStrategy.Direct, typeof(RoutedEventHandler), typeof(ListCraftUC));
     
     public event RoutedEventHandler BackToMenu
     {
